@@ -5,7 +5,58 @@
 
 .gameBox {
     margin: 0 auto;
-    height: 500px;
+    height: 700px;
     width: 700px;
     outline: 1px solid red;
+}
+
+.tools {
+    width: 200px;
+    height: 500px;
+    outline: 1px solid black;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.toolPics {
+    width: 100px;
+    height: 450px;
+    outline: 1px solid black;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.upgrades {
+    width: 435px;
+    height: 500px;
+    outline: 1px solid black;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 250px
+}
+
+.upgradeChoice {
+    width: 375px;
+    height: 450px;
+    outline: 1px solid black;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.gameText {
+    height: 150px;
+    width: 675px;
+    outline: 1px solid black;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 10px;
+}
+
+.startButton {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 150px;
 }

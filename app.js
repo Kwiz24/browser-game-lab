@@ -40,12 +40,15 @@ document.addEventListener("DOMContentLoaded", function() {
 const username = () => {
     startButton.remove();
     const message = document.createElement('p');
-    message.textContent = "Enter your name here: "
+    message.setAttribute('class', 'firstMessage');
+    message.textContent = "Enter your name here: ";
     gameBox.append(message);
     const inputBox = document.createElement("input");
+    inputBox.setAttribute('class', 'inputBox');
     gameBox.appendChild(inputBox);
     const submitButton = document.createElement('button');
     submitButton.setAttribute('type', 'button');
+    submitButton.setAttribute('class', 'submitButton');
     submitButton.textContent = "Submit";
     gameBox.appendChild(submitButton);
 };
